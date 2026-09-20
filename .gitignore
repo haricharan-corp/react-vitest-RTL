@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# testing (Vitest + RTL)
+/coverage
+*.lcov
+.nyc_output/
+.vitest/
+vitest-results.json
