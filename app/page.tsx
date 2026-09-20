@@ -1,4 +1,5 @@
-import Counter from "./components/Counter/Counter";
-export default function Header({ title }: { title: string }) {
-  return <Counter />;
+import UserManagementDashboard from "./components/UserDashboard";
+
+export default function Header() {
+  return <UserManagementDashboard />;
 }

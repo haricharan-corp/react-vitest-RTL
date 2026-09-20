@@ -22,3 +22,10 @@ For avoiding act() entirely: Render a dummy component and use userEvent.click().
 
 it is like render and but it will be descrtured to the returned values
 from the hook
+
+6.expect(mockToggle).toHaveBeenCalled()
+expect(mockToggle).toHaveBeenCalled() — Verifies the function was called at least
+
+7.user = userEvent.setup()
+user = userEvent.setup() inside beforeEach() ensures every
+test gets a fresh user instance, preventing state leakage between test runs
